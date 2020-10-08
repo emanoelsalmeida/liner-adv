@@ -210,7 +210,11 @@ footer p a{
 
 @media screen and (max-width:900px){
 .box-header{
+  
     flex-direction: column;
+}
+.box-header img{
+    width: 35vw;
 }
 header ul li a{
     text-decoration: none;
@@ -226,8 +230,14 @@ header ul li a{
 .p2-box, .p3-box, .p3-box-2{
     grid-template-columns: 100%;
 }
+.p3-box{
+    margin: 0;
+}
 .p2-item img{
     width: 50vw;
+    display: block;
+    margin: 20px auto;
+}
 }
 .p2-item p, .p3-item-2, .p3-item{
     width: 80%;
