@@ -12,7 +12,7 @@ header{
 background: url(/building.jpg);
 background-repeat: no-repeat;
 background-size: 100vw 70vh;
-height: 50vh;
+height: 60vh;
 }
 
 .box-header{
@@ -22,7 +22,7 @@ align-items: center;
 background-color: black;
 }
 .box-header img{
-    width: 12vw;
+    width: 10vw;
 }
 header ul {
     list-style: none;
@@ -30,7 +30,7 @@ header ul {
 }
 header ul li {
      display: inline-block;
-     margin: 35px 15px 30px 10px;
+     margin: 10px 15px 10px 10px;
      font-family: 'Montserrat', sans-serif;
      color: white;
  }
