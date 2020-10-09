@@ -236,6 +236,9 @@ footer p a{
     text-decoration: none;
     text-align: center;
 }
+iframe{
+    width: 100%;
+}
 @media screen and (max-width:880px){
     .p3-item img, .p3-item-2 img{
         width: 50vw;
@@ -295,11 +298,8 @@ header ul li a{
     width: 80%;
     background-color: white;
 }
-iframe{
-    width: 100%;
+.iframe{
+    width: 80%;
 }
 }
 
-.p3-item img{
-    width: 10vw;
-}
