@@ -12,7 +12,7 @@ header{
 background: url(/building.jpg);
 background-repeat: no-repeat;
 background-size: 100vw 70vh;
-height: 60vh;
+height: 70vh;
 }
 
 .box-header{
@@ -22,7 +22,7 @@ align-items: center;
 background-color: black;
 }
 .box-header img{
-    width: 10vw;
+    width: 12vw;
 }
 header ul {
     list-style: none;
@@ -30,9 +30,11 @@ header ul {
 }
 header ul li {
      display: inline-block;
-     margin: 10px 15px 10px 10px;
+     margin: 15px 10px 15px 0px;
      font-family: 'Montserrat', sans-serif;
      color: white;
+ }
+ header ul li:nth-child(2){
  }
 header ul li a{
      text-decoration: none;
@@ -195,7 +197,7 @@ padding-top: 20px;
    display: block;
    margin: 10px auto;
    width: 80%; 
-   text-align: center;
+   text-align: cnter;
 }
 .p3-item img{
     height: 45vh;
@@ -220,7 +222,6 @@ padding-top: 20px;
     display: block;
     margin: 10px auto;
     width: 80%;  
-    text-align: center;
    
 }
 .p3-item-2 img{
@@ -236,13 +237,6 @@ padding-top: 20px;
     font-weight: 700;
 }
 
-section p{
-    overflow: hidden;
-    max-height: 0em;
-    padding:0;
-    margin: 0;
-    text-align: justify;
-}
 section a{
     text-decoration: none;
     display: block;
@@ -253,6 +247,13 @@ section a{
     color: black;
     width: 100%;
     font-weight: 600;
+}
+section p{
+    overflow: hidden;
+    max-height: 0em;
+    padding:0;
+    margin: 0;
+    text-align: justify;
 }
 section:target p{
  max-height: 20em;
@@ -363,8 +364,8 @@ footer p a{
     text-decoration: none;
     text-align: center;
 }
-main p{
-    text-align: justify;
+ .text-p3{
+    text-align: center;
 }
 
 @media screen and (max-width:800px){
@@ -473,7 +474,7 @@ header h1{
     width: 90%;
 }
 .area-box{
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
 }
 .area-item img{
     width: 100%;
@@ -484,6 +485,7 @@ header h1{
 .area-item p{
     display: block;
     margin: 20px auto;
+    width: 100%;
 }
 .area-item h3, .area-item h4{
     text-align: center;
@@ -497,11 +499,13 @@ header h1{
     display: block;
     margin: 10px auto;
 }
-.p3-item p, .p3-item-2 p, .p3-item h3, .p3-item-2 h3{
+.p3-item h3, .p3-item-2 h3{
     text-align: center;
     width: 60%;
     display: block;
     margin: 20px auto;
+}
+.p3-item p, .p3-item-2 p{
 }
 .mude{
     width: 60vw;
@@ -518,6 +522,9 @@ header h1{
 }
 section a{
 }
+section p{
+    text-align: justify;
+}
 .whatsapp a img{
     position: fixed;
     top: 80vh;
@@ -527,4 +534,7 @@ section a{
 .social img{
     width: 10vw;
 }
+}
+.area p{
+    text-align: justify;
 }
