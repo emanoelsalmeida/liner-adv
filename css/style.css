@@ -485,7 +485,7 @@ header h1{
 .area-item p{
     display: block;
     margin: 20px auto;
-    width: 100%;
+    width:90%;
 }
 .area-item h3, .area-item h4{
     text-align: center;
