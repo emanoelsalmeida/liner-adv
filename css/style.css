@@ -6,8 +6,12 @@
 }
 
 header{
-background-color: #303030
+background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url(/library.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 50vh;
 }
+
 .box-header{
     display: flex;
     justify-content: space-around;
@@ -30,13 +34,13 @@ header ul li a{
      text-decoration: none;
      color: white;
      font-size: 1.5em;
-     font-weight: 200;
+     font-weight: 400;
  }
  header h1{
      text-align: center;
      padding: 30px 0;
      color: white;
-     font-weight: 200;
+     font-weight: 400;
  }
 
  .p1 p{
@@ -69,44 +73,50 @@ header ul li a{
     
  }
  .p2-item img{
- 
- }
+}
 
+ .shadow, .shadow-2{
+     width: 80%;
+     display: block;
+     margin: 30px auto;
+     box-shadow: 0 0 10px grey;
+     border-radius:20px;
+     
+ }
  .p3-box{
-    display: grid;
-    grid-template-columns: 40% 40%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 10px 0;
    }
-
 .p3-item p{
    color: white;
    font-weight: 400;
    color: black;
-   margin: 30px 0;
+   margin: 10px 0;
+   width: 80%;
    
 }
 .p3-item img{
-    width: 25vw;
+    width: 20vw;
 }
 .p3-p{
     text-align: right;
 }
 .p3-box-2{
     display: grid;
-    grid-template-columns: 37% 37%;
+    grid-template-columns: 40% 37%;
     justify-content: center;
     grid-gap:50px;
     align-items: center;
-    padding: 30px 0;
+    padding: 10px 0;
    }
 
 .p3-item-2 p{
    color: white;
    font-weight: 400;
    color: black;
-   margin: 30px 0;
+   margin: 10px 0;
    
 }
 .p3-item-2 img{
@@ -116,6 +126,25 @@ header ul li a{
 .p3 h1{
     text-align: center;
     padding: 30px 0;
+}
+.change{
+    width: 80%;
+    background-color: white;
+}
+
+.change button{
+    color: black;
+    font-weight: 400;
+}
+.change button:hover{
+    text-decoration: none;
+    color: black;
+}
+.change button{
+    color: #303030;
+}
+.card{
+
 }
 
 .contact{
@@ -207,8 +236,14 @@ footer p a{
     text-decoration: none;
     text-align: center;
 }
-
-@media screen and (max-width:900px){
+@media screen and (max-width:880px){
+    .p3-item img, .p3-item-2 img{
+        width: 50vw;
+        display: block;
+        margin: 20px auto;
+    }
+}
+@media screen and (max-width:800px){
 .box-header{
   
     flex-direction: column;
@@ -230,8 +265,12 @@ header ul li a{
 .p2-box, .p3-box, .p3-box-2{
     grid-template-columns: 100%;
 }
+.shadow, .shadow-2{
+    width: 100%;
+}
 .p3-box{
     margin: 0;
+    flex-direction: column;
 }
 .p2-item img{
     width: 50vw;
@@ -242,14 +281,25 @@ header ul li a{
 .p2-item p, .p3-item-2, .p3-item{
     width: 80%;
     display: block;
-    margin: 30px auto;
+    margin: 10px auto;
 }
-.p3-item img, .p3-item-2 img{
-    width: 40vw;
+.p3-item p, .p3-item-2 p, .p3-item h3, .p3-item-2 h3{
+    text-align: left;
+}
+.mude{
+    width: 20vw;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
+}
+.change{
+    width: 80%;
+    background-color: white;
 }
 iframe{
     width: 100%;
 }
+}
+
+.p3-item img{
+    width: 10vw;
 }

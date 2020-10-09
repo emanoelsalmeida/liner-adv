@@ -13,13 +13,17 @@
      
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link rel="stylesheet" href="css/style.css">
+
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 </head>
 
 <body>
 	<header>
+        <div class="overlay"></div>
         <div class="box-header">
 
-            <img src="logo.jpg" alt="">
+            <img src="logo1.png" alt="">
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="#about">Sobre</a><li>
@@ -65,31 +69,77 @@
         </div>
         <div id="" class="p3">
             <h1>Advogados</h1>
-            <div class="p3-box">
-                <div class="p3-item">
-                    <img src="liner.jpeg" alt="">
-                </div>
-                <div class="p3-item">
-                        
-                    <h3>Liner Marins</h3>
-                    <p>marins@mcba.adv.br</p>
-                    <p>Advogada inscrita na OAB/RJ nº. 135.994. </p>
-                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pelo IBMEC, pós-graduada em Direito e Processo Civil pela UVA e graduada em Direito pela Universidade Iguaçu. Especialista com prática nas áreas trabalhista, previdenciária e cível, atuando no contencioso judicial, administrativo e na consultoria trabalhista. Idioma: Inglês e espanhol.</p>
-                </div>
-            </div>
+           <div class="shadow">
+               <div class="p3-box">
+   
+                   <div class="p3-item">
+                       <img class="mude" src="liner.jpeg" alt="">
+                   </div>
+                   <div class="p3-item">      
+                       <h3>Liner Marins</h3>
+                       <p>Sócia</p>
+                       <p>marins@mcba.adv.br</p>
+                       <p>Advogada inscrita na OAB/RJ nº. 135.994. </p>
+                    <div class="change">
+                        <div class="back-g" id="accordion">
+                            <div class="card">
+                              <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Formação
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pelo IBMEC, pós-graduada em Direito e Processo Civil pela UVA e graduada em Direito pela Universidade Iguaçu. </p>
+                                    <p>    Especialista com prática nas áreas trabalhista, previdenciária e cível, atuando no contencioso judicial, administrativo e na consultoria trabalhista. </p>
+                                       <p> Idioma: Inglês e espanhol.</p>
+                                </div>
+                              </div>
+                            </div>
+            
+                          </div>
+                    </div>
+               </div>
+           </div>
+           </div>
+           <div class="shadow-2">
             <div class="p3-box-2">
                 <div class="p3-item-2">
                     <h3>Juliane Baiense</h3>
+                    <p>Sócia</p>
                     <p>baiense@mcba.adv.br</p>
                     <p>Advogada inscrita na OAB/RJ nº. 169.613. </p>
-                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pela UCAM e graduada em Direito pela PUC RJ. Especialista com prática nas áreas trabalhista, cível e consumidor atuando no contencioso judicial, administrativo e na consultoria trabalhista. Idioma: Inglês.</p>
-                
+                    <div class="change">
+                        <div class="back-g" id="accordion">
+                            <div class="card">
+                              <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                    Formação
+                                  </button>
+                                </h5>
+                              </div>
+                          
+                              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pela UCAM e graduada em Direito pela PUC RJ.  </p>
+                                    <p>    EEspecialista com prática nas áreas trabalhista, cível e consumidor atuando no contencioso judicial, administrativo e na consultoria trabalhista.  </p>
+                                       <p> Idioma: Inglês </p>
+                                </div>
+                              </div>
+                            </div>
+            
+                          </div>
+                    </div>
                 </div>
                 <div class="p3-item-2 p3-p">
-                <img src="juliane.jpeg" alt="">    
+                <img class="mude" src="juliane.jpeg" alt="">    
                 </div>
             </div>
-        </div>
+           </div>
          <div id="contato" class="contact">
             <div class="c-item">
                 <img src="#" alt="">
@@ -124,11 +174,10 @@
     </main>
     <footer> <p><a href="https://www.instagram.com/emanoelsalmeida/">Desenvolvido por Agência Humans</a></p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
-	<script type="text/javascript" src=""></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+	<script  src="java/script.js"></script>
 </body>
 
 </html>
