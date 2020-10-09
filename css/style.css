@@ -102,6 +102,7 @@ header ul li a{
     
  }
  .p2-item img{
+     width: 40vw;
      height: 55vh;
 }
 
@@ -495,6 +496,8 @@ header h1{
 }
 .ifram iframe{
     width: 70%;
+}
+section a{
 }
 }
 
