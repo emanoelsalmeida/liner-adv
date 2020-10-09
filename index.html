@@ -7,51 +7,64 @@
 	<meta name="author" content="Your Name">
 	<meta name="description" content="Example description">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
+    <link rel="stylesheet" href="css/style.css">
+    
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
-      <!-- Bootstrap CSS -->
-     
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="css/style.css">
-
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
 	<header>
-        <div class="overlay"></div>
+
         <div class="box-header">
 
             <img src="logo1.png" alt="">
+                
+            <nav>
+                <input type="checkbox" id="res-menu">
+                <label for="res-menu">
+                    <i class="fa fa-bars" id="sign-one"></i>
+                    <i class="fa fa-time" id="sign-two">
+                    </i>
+                </label>
                 <ul>
                     <li><a href="">Home</a></li>
                     <li><a href="#about">Sobre</a><li>
                     <li><a href="#servicos">Atuaçāo</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
-        </div>    
+            </nav>
+    </div>    
             <h1>NOSSO ESCRITÓRIO</h1>
     </header>
 	<main>
         <div id="about" class="p1">
-            <p>O MCBA Advocacia e Consultoria objetiva a prestação de serviços jurídicos com alto padrão no mercado, buscando agregar valor aos nossos clientes. </p>
-            <p>
-                Sediado no Rio de Janeiro desde 2015, tem como principal preocupação o atendimento ao cliente com qualidade e presteza, e para isso, conta com uma equipe de advogados capazes de responder à sua demanda administrativa e jurídica de forma integral, tanto em assuntos corporativos como em demandas individuais.
-            </p>
-            <p>
-                O Escritório realiza um trabalho personalizado de acordo com as especificidades de cada cliente, apresentando soluções criativas e eficazes com base no conhecimento jurídico aprofundado a partir de uma visão multidisciplinar, obtida por meio da integração de seus colaboradores.
-            </p>
-            <p>
-                Confiança, integridade, comprometimento, combatividade, união, inovação, transparência, flexibilidade e dinamismo são os valores que compõem a base dos serviços que nos propomos a entregar, e o reconhecimento do nosso trabalho é produto da excelência na prestação de nossos serviços.
-            </p>
+           
+           <div class="p1-box">
+               <div class="p1-item">
+                <p>O MCBA Advocacia e Consultoria objetiva a prestação de serviços jurídicos com alto padrão no mercado, buscando agregar valor aos nossos clientes. </p>
+                <p>
+                    Sediado no Rio de Janeiro desde 2015, tem como principal preocupação o atendimento ao cliente com qualidade e presteza, e para isso, conta com uma equipe de advogados capazes de responder à sua demanda administrativa e jurídica de forma integral, tanto em assuntos corporativos como em demandas individuais.
+                </p>
+               </div>
+               <div class="p1-item">
+                <p>
+                    O Escritório realiza um trabalho personalizado de acordo com as especificidades de cada cliente, apresentando soluções criativas e eficazes com base no conhecimento jurídico aprofundado a partir de uma visão multidisciplinar, obtida por meio da integração de seus colaboradores.
+                </p>
+                <p>
+                    Confiança, integridade, comprometimento, combatividade, união, inovação, transparência, flexibilidade e dinamismo são os valores que compõem a base dos serviços que nos propomos a entregar, e o reconhecimento do nosso trabalho é produto da excelência na prestação de nossos serviços.
+                </p>
+               </div>
+           </div>
+           
         </div>
         <div class="p2">
             <div id="servicos" class="color">
 
                 <div class="p2-box">
                     <div class="p2-item">
-                        <img src="Picture1.png" alt="">
+                        <img src="people.jpg" alt="">
                     </div>
                     <div class="p2-item">
                         <p>
@@ -67,79 +80,130 @@
                 </div>
             </div>
         </div>
-        <div id="" class="p3">
-            <h1>Advogados</h1>
-           <div class="shadow">
-               <div class="p3-box">
-   
-                   <div class="p3-item">
-                       <img class="mude" src="liner.jpeg" alt="">
-                   </div>
-                   <div class="p3-item">      
-                       <h3>Liner Marins</h3>
-                       <p>Sócia</p>
-                       <p>marins@mcba.adv.br</p>
-                       <p>Advogada inscrita na OAB/RJ nº. 135.994. </p>
-                    <div class="change">
-                        <div class="back-g" id="accordion">
-                            <div class="card">
-                              <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    Formação
-                                  </button>
-                                </h5>
-                              </div>
-                          
-                              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pelo IBMEC, pós-graduada em Direito e Processo Civil pela UVA e graduada em Direito pela Universidade Iguaçu. </p>
-                                    <p>    Especialista com prática nas áreas trabalhista, previdenciária e cível, atuando no contencioso judicial, administrativo e na consultoria trabalhista. </p>
-                                       <p> Idioma: Inglês e espanhol.</p>
-                                </div>
-                              </div>
-                            </div>
-            
-                          </div>
-                    </div>
-               </div>
-           </div>
-           </div>
-           <div class="shadow-2">
-            <div class="p3-box-2">
-                <div class="p3-item-2">
-                    <h3>Juliane Baiense</h3>
-                    <p>Sócia</p>
-                    <p>baiense@mcba.adv.br</p>
-                    <p>Advogada inscrita na OAB/RJ nº. 169.613. </p>
-                    <div class="change">
-                        <div class="back-g" id="accordion">
-                            <div class="card">
-                              <div class="card-header" id="headingTwo">
-                                <h5 class="mb-0">
-                                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    Formação
-                                  </button>
-                                </h5>
-                              </div>
-                          
-                              <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
-                                <div class="card-body">
-                                    <p>Formação: Pós-graduada em Direito e Processo do Trabalho pela UCAM e graduada em Direito pela PUC RJ.  </p>
-                                    <p>    EEspecialista com prática nas áreas trabalhista, cível e consumidor atuando no contencioso judicial, administrativo e na consultoria trabalhista.  </p>
-                                       <p> Idioma: Inglês </p>
-                                </div>
-                              </div>
-                            </div>
-            
-                          </div>
-                    </div>
+        <div class="area">
+            <h1><b>Áreas</b> de Atuação</h1>
+            <div class="line"></div>
+           <div class="shadow-3">
+            <div class="area-box">
+                <div class="area-item">
+                    <img src="justice.jpg" alt="">
                 </div>
-                <div class="p3-item-2 p3-p">
-                <img class="mude" src="juliane.jpeg" alt="">    
+                <div class="area-item">
+                    <h3>Cível</h3>
+                    <p><b>Contencioso:</b>
+                   Gestão e acompanhamento de ações judiciais de diversas temáticas tais como consumidor, propriedade intelectual, comercial, imobiliário, responsabilidade civil, sucessão, planos e seguros de saúde, dentre outras. </p>
+                   <p>   <b>Consultivo: </b>
+                        gestão de conflitos extrajudiciais, elaboração de estratégias de negociação, elaboração de notificações, procedimentos perante ofícios e cartórios, elaboração de pareceres e opiniões legais.</p>
                 </div>
             </div>
            </div>
+           <div class="shadow-3">
+
+               <div class="area-box">
+                   <div class="area-item">
+                       <img src="trabalho.jpg" alt="">
+                   </div>
+                   <div class="area-item">
+                       <h3> Direito do Consumidor</h3>
+                       <p>
+                           <b>Consultivo:</b> assessoria jurídica no geral relacionando as práticas comerciais, no ambiente físico e virtual, aos direitos do consumidor. Auxílio em estruturação de negócios com base no direito do consumidor, análise de material publicitário e demais publicações para adequação à legislação.
+                       </p>
+                       <p>
+                           <b>Contencioso:</b> atuação nas esferas judiciais e administrativas (Procon).
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <div class="shadow-3">
+
+               <div class="area-box">
+                   <div class="area-item">
+                       <img src="prev2.jpg" alt="">
+                   </div>
+                   <div class="area-item">
+                       <h3>Previdenciário:</h3>
+                       <p>
+                           Atuamos no âmbito administrativo e contencioso. Fazemos planejamento previdenciário, revisão da vida toda, análise de aposentadorias.
+                       </p>
+                       <p>
+                           Consulta Previdenciária: Serviço voltado para servidores públicos e privados que precisam conhecer os seus direitos ou encontrar uma solução especializada para algum problema previdenciário.
+                       </p>
+                   </div>
+               </div>
+           </div>
+           <div class="shadow-3">
+
+               <div class="area-box">
+                   <div class="area-item">
+                       <img src="prev.jpg" alt="">
+                   </div>
+                   <div class="area-item">
+                       <h3>Direito do Trabalho</h3>
+                       <h4>Atuamos no âmbito administrativo e judicial.</h4>
+                       <p>
+                        <b>Contencioso:</b> Atuação estratégica em todas as fases processuais e instâncias. 
+                       </p>
+                       <p>
+                        <b>Consultoria:</b> Elaboração de consultas e pareceres em temas de Direito Material e Processual, confecção de contratos e auditorias de procedimento
+                       </p>
+                       <p>
+                           <b>Administrativo: </b>Participação em mesas redondas e procedimentos junto ao Ministério do Trabalho, apresentação de defesas e recursos administrativos
+                       </p>
+                   </div>
+               </div>
+           </div>
+        </div>
+        <div id="" class="p3">
+            <h1>Advogadas</h1>
+            <div class="line"></div>
+          <div class="id-box">
+            <div class="shadow">
+                <div class="p3-box">
+    
+                    <div class="p3-item">
+                        <img class="mude" src="liner.jpeg" alt="">
+                    </div>
+                    <div class="p3-item">      
+                        <h3>Liner Marins</h3>
+                        <p>Sócia</p>
+                        <p>marins@mcba.adv.br</p>
+                        <p>Advogada inscrita na OAB/RJ nº. 135.994. </p>
+                         <section id="menu1">
+                             <a href="#menu1">Formaçāo</a>
+                             <p>Formação: Pós-graduada em Direito e Processo do Trabalho pelo IBMEC, pós-graduada em Direito e Processo Civil pela UVA e graduada em Direito pela Universidade Iguaçu. </p>
+                             <p>Especialista com prática nas áreas trabalhista, previdenciária e cível, atuando no contencioso judicial, administrativo e na consultoria trabalhista. </p>
+                             <p>Idioma: Inglês e espanhol.</p>
+ 
+                         </section>
+                </div>
+            </div>
+            </div>
+            <div class="shadow-2">
+             <div class="p3-box-2">
+                 <div class="p3-item-2 p3-p">
+                     <img class="mude" src="juliane.jpeg" alt="">    
+                     </div>
+                 <div class="p3-item-2">
+                     <h3>Juliane Baiense</h3>
+                     <p>Sócia</p>
+                     <p>baiense@mcba.adv.br</p>
+                     <p>Advogada inscrita na OAB/RJ nº. 169.613. </p>
+                     
+                     <section id="menu2">
+                         <a href="#menu2">Formaçāo</a>
+                         <p>Formação: Pós-graduada em Direito e Processo do Trabalho pela UCAM e graduada em Direito pela PUC RJ.  </p>
+                         <p>Especialista com prática nas áreas trabalhista, cível e consumidor atuando no contencioso judicial, administrativo e na consultoria trabalhista.  </p>
+                        <p> Idioma: Inglês </p>
+ 
+                     </section>
+                
+                 </div>
+ 
+             </div>
+            </div>
+          </div>
+
+        </div> 
          <div id="contato" class="contact">
             <div class="c-item">
                 <img src="#" alt="">
@@ -168,7 +232,6 @@
                       
              </div>
              <div class="c-item">
-                <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.057093876711!2d-43.17667128503428!3d-22.911264885009544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9981df5c04d0cb%3A0xeea7a5dda80d22!2sR.%20M%C3%A9xico%2C%2041%20-%20Centro%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2020031-144!5e0!3m2!1spt-BR!2sbr!4v1602182384184!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </main>
