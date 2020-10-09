@@ -336,10 +336,16 @@ form .input-fields{
     position: fixed;
     top: 81vh;
     right: 2.5%;
-    width: 4vw;
+    width: 5vw;
     
 }
-
+.social-box{
+    display: flex;
+    justify-content: space-around;
+}
+.social img{
+    width: 2vw;
+}
 footer p{
     text-align: center;
     padding: 15px 0;
@@ -499,5 +505,13 @@ header h1{
 }
 section a{
 }
+.whatsapp a img{
+    position: fixed;
+    top: 80vh;
+    right: 5.5%;
+    width: 12vw;
 }
-
+.social img{
+    width: 10vw;
+}
+}
