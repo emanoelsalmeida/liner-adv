@@ -284,6 +284,7 @@ padding: 10px;
     margin: 10px 0;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 .c-item img{
     width: 2vw;
